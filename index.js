@@ -15,6 +15,10 @@ app.get("/login", (req, res) => {
   res.send("<h1>This is a login page</h1>");
 });
 
+app.get("/signup", (req, res) => {
+  res.send("<h1>This is a login page</h1>");
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Your Port is now working ${process.env.PORT}`);
 });
